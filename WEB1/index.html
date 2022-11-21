@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="2f.css" />
+    <link rel="stylesheet" href="n.css" />
+    <link rel="stylesheet" href="swip.css" />
+    <link rel="stylesheet" href="s1.css" />
+    <link rel="stylesheet" href="s2.css" />
+    <link rel="stylesheet" href="3s.css" />
+    <link rel="stylesheet" href="1f.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Komar Library </title>
+  </head>
+  <body>
+    <header>
+      <div class="header-container">
+        <div class="header-left-section">
+          <div class="left-section-home">
+            <a href="https://elib.komar.edu.iq/"
+              ><img src="./icons/home.png" alt="Home" class="icons"
+            /></a>
+            <a href="https://elib.komar.edu.iq/"
+              >Komar University of Science and Technology</a
+            >
+          </div>
+          <div class="left-section-email">
+            <a><img src="./icons/email.png" alt="Email" class="icons" /></a>
+            <a href="">library@komar.edu.iq</a>
+          </div>
+        </div>
+        <div class="header-right-section">
+          <div class="social-media-icons">
+            <a href="https://www.facebook.com/KUSTsuli/" target="_blank"
+              ><img src="./icons/fb.svg" alt="facebook" class="icons"
+            /></a>
+            <a href="https://twitter.com/komaruniversity" target="_blank"
+              ><img src="./icons/twitter.svg" alt="twitter" class="icons"
+            /></a>
+            <a
+              href="https://iq.linkedin.com/school/komaruniversity/"
+              target="_blank"
+              ><img src="./icons/linkedin.svg" alt="linkedin" class="icons"
+            /></a>
+            <a
+              href="https://www.instagram.com/komar_university/"
+              target="_blank"
+              ><img src="./icons/instagram.svg" alt="instagram" class="icons"
+            /></a>
+          </div>
+          <button class="sign-in">SIGN IN</button>
+        </div>
+      </div>
+    </header>
+    <nav>
+      <img src="./icons/kust-logo.png" alt="kust-logo" class="logo" />
+      <div class="nav-links">
+        <a href="index.html" class="links">HOME</a>
+        <a href="https://elib.komar.edu.iq/it_about.html" class="links"
+          >ABOUT US</a
+        >
+        <div class="links-with-tooltip">
+          <p class="links">SERVICE</p>
+          <div class="tooltip">
+            <a href="https://elib.komar.edu.iq/login.php">E-Library</a>
+            <a href="https://elib.komar.edu.iq/login.php">Physical Library</a>
+          </div>
+        </div>
+        <div class="links-with-tooltip">
+          <p class="links">USERS</p>
+          <div class="tooltip">
+            <a href="https://elib.komar.edu.iq/loginstudent.php">Students</a>
+            <a href="https://elib.komar.edu.iq/loginfaculty.php">Faculty</a>
+            <a href="https://elib.komar.edu.iq/loginstaff.php">Staff</a>
+            <a href="https://elib.komar.edu.iq/loginstaff.php">Library Admin</a>
+            <a href="https://elib.komar.edu.iq/loginstaff.php">System Admin</a>
+          </div>
+        </div>
+        <a href="https://elib.komar.edu.iq/help_desk.php" class="links"
+          >CONTACT</a
+        >
+      </div>
+    </nav>
+    <div class="swiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <img src="./slides/slide1.jpg" alt="Slide 1" />
+        </div>
+        <div class="swiper-slide">
+          <img src="./slides/slide2.jpg" alt="Slide 2" />
+        </div>
+        <div class="swiper-slide">
+          <img src="./slides/slide3.jpg" alt="Slide 3" />
+        </div>
+      </div>
+      <div class="swiper-pagination"></div>
+
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+      const swiper = new Swiper(".swiper", {
+        loop: true,
+        pagination: {
+          el: ".swiper-pagination",
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+
+    <div class="section-1">
+      <div class="section1-title">
+        <h1>KUST LIBRARY</h1>
+    
+        <div class="underline"></div>
+        <div class="library-images-container">
+          <div class="library-images">
+            <div class="e-library">
+              <a href="https://elib.komar.edu.iq/login.php"
+                ><img src="./icons/i1.png" alt="E-Library"
+              /></a>
+              <h1>E-Library</h1>
+          
+            </div>
+            <div class="physical-library">
+              <a href="https://elib.komar.edu.iq/login.php"
+                ><img src="./icons/i2.png" alt="Physical Library"
+              /></a>
+
+              <h1>Physical Library</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section-2">
+      <div class="section2-title">
+        <h1> SERVICES</h1>
+        <p>WE PROVIDE SERVICES TO STUDENTS AND FACULTY</p>
+        <div class="underline"></div>
+      </div>
+      <div class="services-container">
+        <div class="services">
+          <a href="https://elib.komar.edu.iq/login.php"
+            ><img src="./icons/si1.png" alt=""
+          /></a>
+          <h1>Search Books</h1>
+        </div>
+        <div class="services">
+          <a href="https://elib.komar.edu.iq/login.php"
+            ><img src="./icons/si2.png" alt=""
+          /></a>
+          <h1>Download Books</h1>
+        </div>
+        <div class="services">
+          <a href="https://elib.komar.edu.iq/login.php"
+            ><img src="./icons/si3.png" alt=""
+          /></a>
+          <h1> Book Location</h1>
+        </div>
+        <div class="services">
+          <a href="https://elib.komar.edu.iq/login.php"
+            ><img src="./icons/si4.png" alt=""
+          /></a>
+          <h1>Schedule</h1>
+        </div>
+      </div>
+    </div>
+
+    <div class="last-section">
+      <div class="last-section-container">
+        <div class="left-side-texts">
+          <div class="first-texts">
+            <h1>LIBRARY OPENING TIME</h1>
+            <div class="underline-last-section"></div>
+            <p>Sunday - Thursday/ 8:00 AM - 4:00 PM</p>
+            <div class="last-section-icons">
+              <a href="https://www.facebook.com/KUSTsuli/" target="_blank"
+                ><img src="./icons/white-facebook.png" alt="facebook"
+              /></a>
+            </div>
+          </div>
+          <div class="second-texts">
+            <h1>SERVICES</h1>
+            <div class="underline-last-section"></div>
+            <p>Search Books</p>
+            <p>Download Books</p>
+            <p>Find location of the books</p>
+            <p>Follow up Student's activity</p>
+            <p>Technical Support</p>
+          </div>
+        </div>
+        <div class="right-side-texts">
+          <div class="first-texts">
+            <h1>ADDITIONAL LINKS</h1>
+            <div class="underline-last-section"></div>
+            <p>About us</p>
+            <p>Terms and conditions</p>
+            <p>Privacy policy</p>
+            <p>News</p>
+            <p>Contact us</p>
+          </div>
+          <div class="second-texts">
+            <h1>CONTACT US</h1>
+            <div class="underline-last-section"></div>
+            <p>KUST Library, Qularaisi,</p>
+            <p>Sulaimani, Kurdistaqn Reqion, Iraq</p>
+            <p>+964 750 110 3131</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+    </div>
+  </body>
+</html>

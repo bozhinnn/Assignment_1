@@ -1,0 +1,65 @@
+.section-1 {
+  margin-top: 140px;
+  margin-bottom: 70px;
+  height: 600px;
+  width: 100%;
+}
+
+.section1-title {
+  width: 100%;
+  height: 200px;
+  line-height: 20px;
+}
+
+.section1-title h1 {
+  text-align: center;
+  font-size: 35px;
+  font-weight: 600;
+}
+
+.section1-title p {
+  text-align: center;
+  font-size: 20px;
+  color: rgb(137, 137, 137);
+}
+
+.underline {
+  width: 80px;
+  height: 5px;
+  border-radius: 40px;
+  background-color: rgb(0, 148, 222);
+  align-items: center;
+  display: block;
+  margin: auto;
+}
+
+.library-images-container {
+  align-items: center;
+  height: 490px;
+  width: 550px;
+  margin: 65px auto;
+}
+
+.library-images {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+}
+
+.e-library h1,
+.physical-library h1 {
+  font-size: 18px;
+}
+
+.e-library p,
+.physical-library p {
+  font-size: 15px;
+  color: rgb(137, 137, 137);
+}
+
+.e-library img,
+.physical-library img {
+  cursor: pointer;
+}
